@@ -6,6 +6,8 @@
 
 ![ezgif com-video-to-gif (1)](https://user-images.githubusercontent.com/108774881/217489257-8dfe3432-f8ac-4c1e-b2e1-06eaae562ec0.gif)
 
+## 과제 배포 사이트
+https://youna-six.vercel.app/
 ###  사용 api
 https://exchangerate.host/#/
 #### 해당 과제 트러블 슈팅
