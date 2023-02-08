@@ -3,12 +3,9 @@ import styled from "styled-components";
 import axios from "axios";
 
 const Calculator = ({ transfer }) => {
-  const [info, setInfo] = useState([]);
   const [input, setInput] = useState("1");
   const [exchangeInput, setExchangeInput] = useState((1 / 1256).toFixed(5));
-  const [exchange, setExchange] = useState();
   const [dropdown, setDropdown] = useState([""]);
-  const [seDropdown, setSeDropdown] = useState([""]);
   const [country, setCountry] = useState([]);
   const [value, setValue] = useState("KRW");
   const [secondValue, setSecondValue] = useState("USD");
