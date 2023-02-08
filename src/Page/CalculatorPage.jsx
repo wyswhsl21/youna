@@ -90,7 +90,7 @@ const CalculatorPage = () => {
     { JEP: "저지 파운드" },
     { JMD: "자메이카 달러" },
     { JOD: "요르단 디나르" },
-    { KES: "	케냐 실링" },
+    { KES: "케냐 실링" },
     { KGS: "키르기스스탄 솜" },
     { KPW: "북한 원" },
     { KWD: "쿠웨이트 디나르" },
@@ -175,6 +175,9 @@ const CalculatorPage = () => {
     { ZMW: "잠비아 콰차" },
     { ZWL: "짐바브웨 달러" },
   ];
+  const newtransfer = transferArray.map((item) => item);
+
+  console.log(newtransfer);
   return (
     <>
       <Calculator transfer={transferArray} />
